@@ -1,0 +1,2 @@
+# CORSAIR XENEON 32UHD144 control device only; grant active local desktop user access.
+SUBSYSTEM=="usb", ATTR{idVendor}=="1b1c", ATTR{idProduct}=="0d05", MODE="0660", GROUP="plugdev", TAG+="uaccess"

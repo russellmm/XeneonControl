@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.build-env/
+.build/
+.venv/
+venv/
+*.spec
+research/
+release/
+dist/
+handoff.md
+.env
+.env.*
